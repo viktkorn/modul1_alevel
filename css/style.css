@@ -391,7 +391,8 @@ a{
   height: 300px;
 }
 .img-section img {
-  width: 475px;
+  width: 48vw;
+  flex-grow: 48;
 }
 }
 @media (min-width: 786px) {
@@ -497,6 +498,10 @@ a{
     justify-content: space-between;
     text-align-last: left;
   }
+  .img-section img {
+  width: 24.4vw;
+  flex-grow: 24.4;
+}
 }
 
 @media (min-width: 1024px){
